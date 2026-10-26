@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} — {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
+
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]'], ['$$', '$$']],
+        processEscapes: true,
+        tags: 'ams'
+      },
+      options: {
+        skipHtmlTags: [
+          'script', 'noscript', 'style', 'textarea', 'pre', 'code'
+        ]
+      }
+    };
+  </script>
+
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+      </a>
+      <p class="site-description">{{ site.description }}</p>
+
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    {% if page.layout == "post" %}
+      <article>
+        <h1>{{ page.title }}</h1>
+
+        {% if page.date %}
+          <p class="post-date">
+            {{ page.date | date: "%d %B %Y" }}
+          </p>
+        {% endif %}
+
+        {{ content }}
+      </article>
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        © 2026 sema4r. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
