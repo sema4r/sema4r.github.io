@@ -1,0 +1,11 @@
+title: "semaphore"
+description: "the world is the totality of facts, not of things"
+url: "https://sema4r.github.io"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+permalink: /:year/:month/:day/:title/
