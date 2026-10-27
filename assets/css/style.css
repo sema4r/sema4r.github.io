@@ -15,7 +15,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 18px;
   line-height: 1.75;
 }
@@ -93,7 +93,7 @@ nav {
   display: flex;
   gap: 22px;
   margin-top: 18px;
-  font-family: Arial, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -137,7 +137,7 @@ h3 {
 
 .post-date {
   color: var(--muted);
-  font-family: Arial, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -195,7 +195,7 @@ mjx-container[display="true"] {
   padding: 24px 0;
   border-top: 1px solid var(--border);
   color: var(--muted);
-  font-family: Arial, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 13px;
 }
 
