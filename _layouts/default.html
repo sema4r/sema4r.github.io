@@ -40,18 +40,20 @@
 
 <body>
   <header class="site-header">
-    <div class="container">
-      <a class="site-title" href="{{ '/' | relative_url }}">
-        {{ site.title }}
-      </a>
-      <p class="site-description">{{ site.description }}</p>
+  <div class="header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      semaphore
+    </a>
+    <p class="site-tagline">
+      the world is the totality of facts, not of things
+    </p>
+  </div>
+</header>
 
-      <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-      </nav>
-    </div>
-  </header>
+<nav class="site-nav">
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/about/' | relative_url }}">About</a>
+</nav>
 
   <main class="container content">
     {% if page.layout == "post" %}
