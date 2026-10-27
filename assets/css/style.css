@@ -26,15 +26,31 @@ body {
 }
 
 .site-header {
-  padding: 42px 0 28px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 36px;
+  min-height: 365px;
+  display: flex;
+  align-items: center;
+
+  background-image:
+    url("../images/4103023418_9bb319300a_k.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-inner {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 2rem 24px;
 }
 
 .site-title {
-  color: var(--text);
-  font-size: 34px;
-  font-weight: normal;
+  display: inline-block;
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2;
   text-decoration: none;
 }
 
@@ -42,6 +58,35 @@ body {
   margin: 4px 0 14px;
   color: var(--muted);
   font-size: 16px;
+}
+
+site-title:hover {
+  color: #fff;
+}
+
+.site-tagline {
+  margin: 0.7rem 0 0;
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+/* Navigation */
+.site-nav {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 1rem 24px;
+}
+
+.site-nav a {
+  margin-right: 1.5rem;
+  color: #444;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
 }
 
 nav {
@@ -159,16 +204,24 @@ mjx-container[display="true"] {
     font-size: 17px;
   }
 
-  .site-title {
-    font-size: 28px;
-  }
-
   h1 {
     font-size: 29px;
   }
 
   .post-list .post-date {
     display: block;
+  }
+  
+  .site-header {
+    min-height: 250px;
+  }
+
+  .site-title {
+    font-size: 2.2rem;
+  }
+
+  .site-tagline {
+    font-size: 1.05rem;
   }
 }
 
