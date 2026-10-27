@@ -4,6 +4,16 @@ title: About
 permalink: /about/
 ---
 
+# About the author
+
+Jens Christian Keil (sema4r)
+
+Senior Data Scientist | Senior Software Engineer | Building Trading Systems
+Background in Math. Physics, Algebraic Geometry, CS.
+Opinions are my own and do not express the views/opinions of my employers
+and clients.
+
+
 # About this blog
 
 This blog will be about topics I think about from Machine Learning, 
