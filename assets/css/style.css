@@ -22,7 +22,7 @@ body {
 
 .container {
   width: min(var(--content-width), calc(100% - 40px));
-  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 70px));
+  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 90px));
   margin-right: auto;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .header-inner {
   width: min(var(--content-width), calc(100% - 40px));
-  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 70px));
+  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 90px));
   margin-right: auto;
   padding: 2rem 0;
 }
@@ -76,7 +76,7 @@ site-title:hover {
 /* Navigation */
 .site-nav {
   width: min(var(--content-width), calc(100% - 40px));
-  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 70px));
+  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 90px));
   margin-right: auto;
   padding: 1rem 0;
 }
