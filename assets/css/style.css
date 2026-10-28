@@ -22,7 +22,8 @@ body {
 
 .container {
   width: min(var(--content-width), calc(100% - 40px));
-  margin: 0 auto;
+  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 60px));
+  margin-right: auto;
 }
 
 .site-header {
@@ -39,7 +40,8 @@ body {
 
 .header-inner {
   width: min(var(--content-width), calc(100% - 40px));
-  margin: 0 auto;
+  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 60px));
+  margin-right: auto;
   padding: 2rem 0;
 }
 
@@ -73,9 +75,10 @@ site-title:hover {
 
 /* Navigation */
 .site-nav {
-  max-width: min(var(--content-width), calc(100% - 40px));
-  margin: 0 auto;
-  padding: 1rem 24px;
+  width: min(var(--content-width), calc(100% - 40px));
+  margin-left: max(20px, calc((100% - var(--content-width)) / 2 - 60px));
+  margin-right: auto;
+  padding: 1rem 0;
 }
 
 .site-nav a {
