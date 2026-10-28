@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# About the author
+## About the author
 
 Jens Christian Keil  (sema4r)
 
@@ -14,7 +14,7 @@ Opinions are my own and do not express the views/opinions of my employers<br>
 and clients.
 
 
-# About this blog
+## About this blog
 
 This blog will be about topics I think about from Machine Learning, Data Science, Mathematical<br>
 Physics and Math in general. Some posts will be introductory, some not.
