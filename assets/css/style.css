@@ -257,3 +257,80 @@ mjx-container[display="true"] {
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
+
+/* Homepage: article stream and timeline */
+.home-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: 40px;
+  align-items: start;
+}
+
+.home-articles h2,
+.home-timeline h2 {
+  margin-top: 1.5em;
+}
+
+.home-post {
+  margin-bottom: 2.5rem;
+}
+
+.home-post h3 {
+  margin-bottom: 0.2rem;
+}
+
+.home-post h3 a {
+  text-decoration: none;
+}
+
+.home-post h3 a:hover {
+  text-decoration: underline;
+}
+
+.home-post .post-date {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.home-post-excerpt {
+  overflow-wrap: break-word;
+}
+
+.home-timeline {
+  font-size: 0.88rem;
+}
+
+.home-timeline h3 {
+  margin: 1.2rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.home-timeline ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.home-timeline li {
+  margin: 0.55rem 0;
+}
+
+.home-timeline a {
+  text-decoration: none;
+}
+
+.home-timeline a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .home-columns {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .home-timeline {
+    border-top: 1px solid var(--border);
+    padding-top: 0.5rem;
+  }
+}
