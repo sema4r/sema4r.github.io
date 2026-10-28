@@ -39,10 +39,8 @@ body {
 
 .header-inner {
   width: min(var(--content-width), calc(100% - 40px));
-  max-width: 1020px;
   margin: 0 auto;
-  padding: 2rem 24px;
-  box-sizing: border-box;
+  padding: 2rem 0;
 }
 
 .site-title {
