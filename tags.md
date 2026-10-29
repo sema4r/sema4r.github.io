@@ -5,7 +5,7 @@ permalink: /tags/
 ---
 
 <h2>Tags</h2>
-
+<br>
 {% assign all_tags = site.tags | sort %}
 
 {% for tag in all_tags %}
