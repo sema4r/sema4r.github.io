@@ -337,6 +337,6 @@ mjx-container[display="true"] {
 
 @media (min-width: 1000px) {
   .home-columns {
-    column-gap: 80px;
+    column-gap: 160px;
   }
 }
