@@ -334,3 +334,9 @@ mjx-container[display="true"] {
     padding-top: 0.5rem;
   }
 }
+
+@media (min-width: 1000px) {
+  .home-columns {
+    column-gap: 80px;
+  }
+}
