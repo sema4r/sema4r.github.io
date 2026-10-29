@@ -341,3 +341,18 @@ mjx-container[display="true"] {
   }
 }
 
+/* Post tags */
+.post-tags {
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.post-tags a {
+  text-decoration: none;
+}
+
+.post-tags a:hover {
+  text-decoration: underline;
+}
+
