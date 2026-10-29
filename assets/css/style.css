@@ -336,7 +336,8 @@ mjx-container[display="true"] {
 }
 
 @media (min-width: 1000px) {
-  .home-columns {
-    column-gap: 160px;
+  .home-timeline {
+    transform: translateX(80px);
   }
 }
+
