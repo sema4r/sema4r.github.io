@@ -4,12 +4,12 @@ title: Tags
 permalink: /tags/
 ---
 
-<h1>Tags</h1>
+<h2>Tags</h2>
 
 {% assign all_tags = site.tags | sort %}
 
 {% for tag in all_tags %}
-  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+  <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
   <ul>
     {% assign tagged_posts = tag[1] | sort: "date" | reverse %}
     {% for post in tagged_posts %}
