@@ -356,3 +356,68 @@ mjx-container[display="true"] {
   text-decoration: underline;
 }
 
+/* Syntax highlighting */
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cp,
+.highlight .cs {
+  color: #6a737d;
+  font-style: italic;
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #d73a49;
+}
+
+.highlight .nf,
+.highlight .fm {
+  color: #6f42c1;
+}
+
+.highlight .nc,
+.highlight .nn {
+  color: #e36209;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sr,
+.highlight .ss {
+  color: #032f62;
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf,
+.highlight .mh,
+.highlight .mo {
+  color: #005cc5;
+}
+
+.highlight .o,
+.highlight .ow {
+  color: #d73a49;
+}
+
+.highlight .na,
+.highlight .nb,
+.highlight .no {
+  color: #005cc5;
+}
+
+.highlight .err {
+  color: inherit;
+  background: transparent;
+}
