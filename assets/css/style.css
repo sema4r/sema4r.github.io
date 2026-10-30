@@ -356,35 +356,65 @@ mjx-container[display="true"] {
   text-decoration: underline;
 }
 
-/* Syntax highlighting */
+/* Pastels on Dark — adapted from the original Emacs theme */
+
+/* Code block background and default text */
+.highlight,
+.highlight pre {
+  background: #211E1E;
+  color: #DADADA;
+}
+
+.highlight code {
+  color: #DADADA;
+}
+
+/* Comments */
 .highlight .c,
 .highlight .c1,
 .highlight .cm,
-.highlight .cp,
 .highlight .cs {
-  color: #6a737d;
-  font-style: italic;
+  color: #ed5b15;
 }
 
+/* Preprocessor directives */
+.highlight .cp {
+  color: #2F006E;
+}
+
+/* Keywords and built-ins */
 .highlight .k,
 .highlight .kd,
 .highlight .kn,
 .highlight .kp,
 .highlight .kr,
-.highlight .kt {
-  color: #d73a49;
+.highlight .nb {
+  color: #6f61ff;
 }
 
+/* Functions */
 .highlight .nf,
 .highlight .fm {
-  color: #6f42c1;
+  color: #A1A1FF;
+  font-weight: bold;
 }
 
-.highlight .nc,
-.highlight .nn {
-  color: #e36209;
+/* Constants and numbers */
+.highlight .no,
+.highlight .m,
+.highlight .mi,
+.highlight .mf,
+.highlight .mh,
+.highlight .mo {
+  color: #e98e23;
 }
 
+/* Documentation */
+.highlight .cd {
+  color: #e98e07;
+}
+
+/* Strings */
 .highlight .s,
 .highlight .s1,
 .highlight .s2,
@@ -395,28 +425,35 @@ mjx-container[display="true"] {
 .highlight .si,
 .highlight .sr,
 .highlight .ss {
-  color: #032f62;
+  color: #AD9361;
 }
 
-.highlight .m,
-.highlight .mi,
-.highlight .mf,
-.highlight .mh,
-.highlight .mo {
-  color: #005cc5;
+/* Types and class names */
+.highlight .kt,
+.highlight .nc,
+.highlight .nn {
+  color: #6782D3;
 }
 
+/* Variables and attributes */
+.highlight .nv,
+.highlight .na {
+  color: #bec337;
+}
+
+/* References */
+.highlight .ni,
+.highlight .ne {
+  color: #a84070;
+}
+
+/* Operators */
 .highlight .o,
 .highlight .ow {
-  color: #d73a49;
+  color: #DADADA;
 }
 
-.highlight .na,
-.highlight .nb,
-.highlight .no {
-  color: #005cc5;
-}
-
+/* Avoid distracting error backgrounds */
 .highlight .err {
   color: inherit;
   background: transparent;
